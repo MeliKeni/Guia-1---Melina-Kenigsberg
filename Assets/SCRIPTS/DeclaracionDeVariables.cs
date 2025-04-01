@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class DeclaracionDeVariables : MonoBehaviour // los : significa que hereda de MonoBehaviour
 {
-    int cantidadLocales;
+    int cantidadAlumnos;
     float kilosVendidos;
-    string tipoVerdura;
-    bool abierto;
+    string nombreAlumno;
+    bool estaAprobado;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        cantidadAlumnos = 22;
+         kilosVendidos = 12.4F;
+         nombreAlumno = "Meli";
+      estaAprobado = false;
+        Debug.Log(cantidadAlumnos);
+        Debug.Log(kilosVendidos);
+        Debug.Log(nombreAlumno);
+        Debug.Log(estaAprobado);
+
+
+       
     }
 
     // Update is called once per frame
