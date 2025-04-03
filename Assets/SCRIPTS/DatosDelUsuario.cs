@@ -12,7 +12,7 @@ public class DatosDelUsuario : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Mi nombre es " + nombreUsuario);        
+        Debug.Log("Mi nombre es " + nombreUsuario + " tengo " + edadUsuario + " mido " + estaturaUsuario + " metros" + " y es " + esDonante + " que soy donante de organos");        
     }
 
     // Update is called once per frame
@@ -21,3 +21,4 @@ public class DatosDelUsuario : MonoBehaviour
         
     }
 }
+    
