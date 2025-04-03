@@ -11,13 +11,13 @@ public class CalculosPersonalizados : MonoBehaviour
     void Start()
     {
         resultado = num1 + num2;
-        Debug.Log(resultado);
+        Debug.Log("el resultado de la suma entre " + num1 + " y " + num2 + " es: " + resultado);
         resultado = num1 - num2;
-        Debug.Log(resultado);
-        resultado = num1 * num2;
-        Debug.Log(resultado);
+           Debug.Log("el resultado de la resta entre" + num1 + " y " + num2 + " es: " + resultado);
+         resultado = num1 * num2;
+         Debug.Log("el resultado de la multiplicacion entre " + num1 + " y " + num2 + " es: " + resultado);
         resultado = num1 / num2;
-        Debug.Log(resultado);
+        Debug.Log("el resultado de la suma entre " + num1 + " y " + num2 + " es: " + resultado);
     }
 
     // Update is called once per frame
